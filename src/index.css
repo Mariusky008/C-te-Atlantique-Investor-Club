@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-club-sand text-club-blue font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+.btn-primary {
+  @apply bg-club-blue text-white px-6 py-3 rounded hover:bg-club-blue-dark transition-colors duration-300 font-medium;
+}
+
+.btn-secondary {
+  @apply border border-club-blue text-club-blue px-6 py-3 rounded hover:bg-club-blue hover:text-white transition-colors duration-300 font-medium;
+}
+
+.btn-accent {
+  @apply bg-club-gold text-white px-6 py-3 rounded hover:bg-club-gold-light transition-colors duration-300 font-medium;
+}
